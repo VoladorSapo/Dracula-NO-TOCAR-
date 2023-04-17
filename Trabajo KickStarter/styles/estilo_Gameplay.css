@@ -22,3 +22,18 @@ li a:hover {
     background-color: #111;
     
 }
+#intro {
+    border: 1px dotted;#0032ff;
+    border-radius: 5px;
+    color: #644400;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight:bold;
+}
+#texto {
+padding-left: 80px;
+    color: #C98900;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight:bold;
+}
