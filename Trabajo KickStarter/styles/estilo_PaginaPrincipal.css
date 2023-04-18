@@ -40,6 +40,35 @@ li a:hover {
     font-family: monospace;
     font-weight:bold;
 }
+
+#campaña{
+    font-family: monospace;
+    font-weight:bold;
+    font-size: 15px;
+    text-align: center;
+    
+    background-color: black;
+    color:white;
+
+    width: 110px;
+    padding: 16px 16px;
+
+    position: fixed;
+    right: 20px;
+    top: 60px;
+}
+#navegadorC{
+    border-top: 1px solid #bbb;
+    background-color: black;
+}
+p a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
 #footerPP{
     font-family: monospace;
     font-weight:bold;
@@ -47,6 +76,4 @@ li a:hover {
     font-size: 20px;
     background-color: black;
     color:white;
-    
-
 }
