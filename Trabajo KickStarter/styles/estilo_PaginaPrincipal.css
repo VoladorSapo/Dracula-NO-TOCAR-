@@ -1,28 +1,25 @@
-#DescripcionPP{
-    font-family: monospace;
-    font-weight:bold; 
-    color: #644400;
-    width: 50%;
-    text-align:center;
-    margin: auto;
-    font-size: 35px;
+/*--------------------------------------------*/
+#navegador{
+    position: fixed;
+    right: 20px;
+    left:20px;
+    top: 10px;
 }
 
-ul {
+#cuadros {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
 }
 
-li {
+#rayitalado{
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li a {
+#links{
     display: block;
     color: white;
     text-align: center;
@@ -30,16 +27,12 @@ li a {
     text-decoration: none;
     
 }
-li a:hover {
+
+#links:hover {
     background-color: #111;
 }
 
-#grito {
-    color: #644400;
-    font-size: 85px;
-    font-family: monospace;
-    font-weight:bold;
-}
+/*--------------------------------------------*/
 
 #campaña{
     font-family: monospace;
@@ -57,17 +50,44 @@ li a:hover {
     right: 20px;
     top: 60px;
 }
+
 #navegadorC{
     border-top: 1px solid #bbb;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
-p a{
+
+#linkN{
     display: block;
     color: white;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
+
+/*--------------------------------------------*/
+
+#grito {
+    color: #644400;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight:bold;
+}
+
+/*--------------------------------------------*/
+
+#DescripcionHistoria{
+    font-family: monospace;
+    font-weight:bold; 
+    color: #644400;
+    width: 50%;
+    text-align:center;
+    margin: auto;
+    font-size: 20px;
+}
+
+/*--------------------------------------------*/
 
 #footerPP{
     font-family: monospace;
