@@ -1,3 +1,11 @@
+h2{
+    font-family: monospace;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;  
+    text-decoration: none;
+    color:black;
+}
 /*--------------------------------------------*/
 #navegador{
     position: fixed;
@@ -43,7 +51,7 @@
     background-color: black;
     color:white;
 
-    width: 110px;
+    width: 125px;
     padding: 16px 16px;
 
     position: fixed;
@@ -62,7 +70,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
