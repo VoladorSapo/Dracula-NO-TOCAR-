@@ -84,7 +84,36 @@ h2{
 }
 
 /*--------------------------------------------*/
+#TablaContribuciones{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
 
+    width: 600px;
+    padding: 16px 16px;
+    margin: auto;
+}
+th{ /*COLORES A CAMBIAR POR UNOS Q PEGUEN MÁS*/
+    border: 1px solid black;
+    padding: 5px 5px;
+    color: white;/* <-- */
+    background-color: #BB9178;/* <-- */
+}
+td{
+    border: 1px solid black;
+    padding: 5px 5px;
+    background-color: #F3DFC2;/* <-- */
+}
+
+/*--------------------------------------------*/
+#metas{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    padding: 0% 25%;
+    margin: auto;
+}
+/*--------------------------------------------*/
 #DescripcionHistoria{
     font-family: monospace;
     font-weight:bold; 
