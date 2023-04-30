@@ -5,11 +5,12 @@ var inputcomentario = document.getElementById('inputcomentario')
 console.log(inputcomentario);
 submitBtn.addEventListener('click', ponerComentario)
 function ponerComentario(){
+	    const letter = (inputnombre.value).charAt(0)
+
 	console.log("dsd")
 	if(inputnombre.value != '' && inputcomentario.value != ''){
 	var h1 = document.createElement('h1');
 h1.innerHTML = `
-<div>
  ${inputnombre.value}
  </div>
 <comment>
