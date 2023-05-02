@@ -103,7 +103,7 @@ h2{
 }
 
 /*--------------------------------------------*/
-#navegador{
+#navegador2{
     position: absolute;
     top: 0;
     left: 0;
@@ -115,6 +115,15 @@ h2{
     front-weight: bold;
     padding: 10px 0;
     z-index: 9998;
+}
+#cuadros li:first-child {
+  background-image: url('media/images/LogoDraculaBanner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------*/
