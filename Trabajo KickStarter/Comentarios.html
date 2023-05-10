@@ -1,16 +1,25 @@
 <!DOCTYPE html><html lang="es">
 <head>
+<meta charset="UTF-8"/>
 <script src="javascript/Navegador.js"></script>
 <link href="styles/estilo_Comentarios.css" rel="stylesheet" type="text/css" />
 <!-- -------------------------------------------- -->
             <div id="navegador">
                 <ul id="cuadros">
                     <li id="rayitalado"><a id="links" href="PaginaPrincipal.html"><img src="media/images/LogoDraculaBanner.png" width=100% height=auto></a></li>
+
                     <li id="rayitalado"><a id="links" href="PaginaPrincipal.html">Inicio</a></li>
+
                     <li id="rayitalado"><a id="links" href="DescripcionHistoria.html">Historia</a></li>
+
                     <li id="rayitalado"><a id="links" href="PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+
                     <li id="rayitalado"><a id="links" href="Comentarios.html">Comentarios</a></li>
+
                     <!--<li id="rayitalado"><a id="links" href="Campaña.html">Campaña</a></li>-->
+
+                    <li id="inputbusqueda"><input class="searchinput" type="text" placeholder="Buscar en la página" title="Busca palabras específicas en la página"></input></li>
+                    <li><a id="botonBusqueda" onclick="buscar();"><img src="media/images/lupa.png" width="50px" height="auto"></a></li>
                 </ul>
                  <script>
                     var navegador = document.getElementById("navegador");
