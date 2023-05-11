@@ -1,7 +1,7 @@
 h2{
     font-family: monospace;
     font-weight:bold;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;  
     text-decoration: none;
     color:black;
@@ -18,7 +18,6 @@ h2{
     front-size: 16px;
     front-weight: bold;
     padding: 10px 0;
-    z-index: 9998;
 }
 
 #cuadros {
@@ -30,21 +29,18 @@ h2{
 }
 
 #cuadros li {
-  width: 120px;
-  height: 80px;
-  line-height: 60px;
-  text-align: center;
+    min-width: 120px;
+    height: 80px;
+    line-height: 60px;
+    text-align: center;
 }
 
 
 #cuadros li:first-child {
   background-image: url('media/images/LogoDraculaBanner.png');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 120px;
   height: 80px;
-  margin: 0 auto;
 }
 
 
@@ -59,7 +55,6 @@ h2{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 #links:hover {
@@ -74,56 +69,32 @@ h2{
     font-size: 15px;
     text-align: center;
     
-    background-color: black;
+    background-color: #333;
     color:white;
 
-    width: 125px;
+    width: 15%;
     padding: 16px 16px;
 
     position: fixed;
-    right: 20px;
-    top: 25px;
+    right: 0px;
+    top: 30px;/*120 abajo*/
 
-    z-index: 9999;
 }
 
 #navegadorC{
     border-top: 1px solid #bbb;
-    background-color: black;
     margin: 0;
     padding: 0;
 }
 
 #linkN{
     display: block;
+    overflow: hidden;
     color: white;
     text-align: center;
-    padding: 5px 10px;
+    right: 120px;
+    padding: 5px 5px;
     text-decoration: none;
-}
-
-/*--------------------------------------------*/
-#navegador2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    front-size: 16px;
-    front-weight: bold;
-    padding: 10px 0;
-    z-index: 9998;
-}
-#cuadros li:first-child {
-  background-image: url('media/images/LogoDraculaBanner.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 120px;
-  height: 80px;
-  margin: 0 auto;
 }
 
 /*--------------------------------------------*/
